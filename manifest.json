@@ -10,12 +10,18 @@
     "stream"
   ],
   "types": [
+    "series",
     "movie"
   ],
   "idPrefixes": [
     "avigo-"
   ],
   "catalogs": [
+    {
+      "type": "series",
+      "id": "avigo-series",
+      "name": "AvigoTV – seriale"
+    },
     {
       "type": "movie",
       "id": "avigo",
