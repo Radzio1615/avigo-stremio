@@ -1,0 +1,28 @@
+{
+  "id": "pl.avigo.tv.phone",
+  "version": "1.0.0",
+  "name": "AvigoTV – z telefonu",
+  "description": "Filmy wysłane z aplikacji AvigoTV. Telefon musi być włączony i w tym samym Wi-Fi.",
+  "logo": "https:\/\/radzio1615.github.io\/avigo-stremio\/poster\/logo.svg",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "avigo-"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "avigo",
+      "name": "AvigoTV – z telefonu"
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false
+  }
+}
